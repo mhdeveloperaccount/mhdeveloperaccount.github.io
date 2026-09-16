@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>英単語置き換え｜日本語のページを読みながら英単語を覚えるChrome拡張</title>
+  <meta name="description" content="日本語のページを読んでいるあいだに、名詞の一部を英単語に置き換えて表示するChrome拡張機能です。覚えた語は間隔をあけて再び出て、テストで確かめられます。">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <a href="./">英単語置き換え</a>
+  </header>
+
+  <main>
+    <h1>英単語置き換え</h1>
+    <p>日本語のページを読んでいるあいだに、名詞の一部を英単語に置き換えて表示するChrome拡張機能です。単語帳を開かなくても、ふだん読んでいるニュースや記事の中で英単語に触れられます。</p>
+    <p class="note">Chromeウェブストアで公開の準備をしています。公開したら、このページにリンクを載せます。</p>
+
+    <h2>できること</h2>
+    <ul>
+      <li>日本語のページの名詞を、英単語に置き換えて表示します。「今日の会議は3時から」が「今日の meeting は3時から」になります</li>
+      <li>置き換わった語にカーソルを合わせると、元の日本語と読みが出ます。英単語の読み上げもできます</li>
+      <li>「覚えた」を押した語は、1日、3日、7日と間隔をあけて再び出ます</li>
+      <li>覚えた語から4択のテストを出します。結果の記録と、CSVでの書き出しができます</li>
+      <li>1ページで置き換える語の数、語の難しさ（3段階）、置き換えないサイトを選べます</li>
+      <li>続けた日数、今週の記録、達成を表示します</li>
+    </ul>
+
+    <h2>料金</h2>
+    <table>
+      <tr>
+        <th>試用期間</th>
+        <td>入れてから14日間は、すべての機能を無料で使えます。メールアドレスの登録はいりません。</td>
+      </tr>
+      <tr>
+        <th>無料版</th>
+        <td>0円。試用期間が終わったあとも、置き換え、覚えた語の記録、4択10問のテスト、週ごとの記録、CSVの書き出しは続けて使えます。</td>
+      </tr>
+      <tr>
+        <th>有料版</th>
+        <td>980円（税込、買い切り）。テストの出し方の追加（英語から日本語、音を聞いて選ぶ、書き取り、苦手な語だけ、20問と50問）と、月ごとの記録を使えます。</td>
+      </tr>
+    </table>
+    <p class="note">お支払いはクレジットカードで、ExtensionPay（決済は Stripe）を通して受け付けます。販売条件は<a href="../tokushoho.html">特定商取引法に基づく表記</a>をご覧ください。</p>
+
+    <h2>動作環境</h2>
+    <p>パソコン版の Google Chrome で使えます。スマートフォンの Chrome では動作しません。</p>
+
+    <h2>ご注意</h2>
+    <p>置き換えに使う和英辞書は、Electronic Dictionary Research and Development Group の JMdict を加工したものです（<a href="https://www.edrdg.org/edrdg/licence.html">CC BY-SA 4.0</a>）。語の難しさの段階は、hermitdave の <a href="https://github.com/hermitdave/FrequencyWords">FrequencyWords</a>（CC BY-SA 4.0）をもとにしています。文脈によっては、ふさわしくない訳が出ることがあります。</p>
+    <p>ページの文章はお使いのパソコンの中だけで読み、外部には送りません。</p>
+  </main>
+
+  <footer>
+    <a href="../">Masataka HayashiのChrome拡張機能</a>
+    <a href="../tokushoho.html">特定商取引法に基づく表記</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <p>運営：Masataka Hayashi　お問い合わせ：masatakahayashi148@gmail.com</p>
+  </footer>
+</body>
+</html>
